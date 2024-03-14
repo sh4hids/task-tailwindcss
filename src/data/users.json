@@ -1,0 +1,184 @@
+[
+  {
+    "gender": "female",
+    "name": { "title": "Ms", "first": "Mary", "last": "Day" },
+    "location": {
+      "street": { "number": 6399, "name": "Brick Kiln Road" },
+      "city": "Lisburn",
+      "state": "Staffordshire",
+      "country": "United Kingdom",
+      "postcode": "M18 1XQ",
+      "coordinates": { "latitude": "56.8784", "longitude": "120.5798" },
+      "timezone": {
+        "offset": "+4:00",
+        "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+      }
+    },
+    "email": "mary.day@example.com",
+    "login": {
+      "uuid": "a3d9a17d-7bfd-406b-87c6-028cfce42d22",
+      "username": "happybear239",
+      "password": "scorpio1",
+      "salt": "S71bAScD",
+      "md5": "7252d77f86bb6e893750ea6014292170",
+      "sha1": "f56a83417e5801a545da125215f70fd4a7941a35",
+      "sha256": "34e69dc4969b3978cc08db2aa5cf9d1bb55c286ed85e4361f25808612cca4a8e"
+    },
+    "dob": { "date": "1974-04-17T20:49:09.167Z", "age": 49 },
+    "registered": { "date": "2017-11-14T00:15:35.119Z", "age": 6 },
+    "phone": "017684 29381",
+    "cell": "07600 331410",
+    "id": { "name": "NINO", "value": "HJ 93 00 11 S" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/96.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/96.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/96.jpg"
+    },
+    "nat": "GB"
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Clayton", "last": "White" },
+    "location": {
+      "street": { "number": 7608, "name": "Oaks Cross" },
+      "city": "Norwich",
+      "state": "Buckinghamshire",
+      "country": "United Kingdom",
+      "postcode": "LO8 8YW",
+      "coordinates": { "latitude": "28.5661", "longitude": "87.0888" },
+      "timezone": {
+        "offset": "-3:00",
+        "description": "Brazil, Buenos Aires, Georgetown"
+      }
+    },
+    "email": "clayton.white@example.com",
+    "login": {
+      "uuid": "fe1bb173-0c54-40ce-adb3-fa2af8bf6c5c",
+      "username": "heavycat293",
+      "password": "snickers",
+      "salt": "a99xOb0t",
+      "md5": "4eed0cac626a693e6aca9d2c21ce7d13",
+      "sha1": "7723dc69913d252ac8c74434a97ce519cc3c7b64",
+      "sha256": "2630f8cd7d0ae72a1a6afb184a8978f72ef0f49818ad07227d0d4975630b40c3"
+    },
+    "dob": { "date": "1955-04-13T12:47:57.159Z", "age": 68 },
+    "registered": { "date": "2007-12-25T22:50:28.985Z", "age": 16 },
+    "phone": "016974 52343",
+    "cell": "07469 238780",
+    "id": { "name": "NINO", "value": "EZ 01 06 57 O" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/58.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/58.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/58.jpg"
+    },
+    "nat": "GB"
+  },
+  {
+    "gender": "female",
+    "name": { "title": "Miss", "first": "Amber", "last": "Mason" },
+    "location": {
+      "street": { "number": 6627, "name": "South Street" },
+      "city": "Gloucester",
+      "state": "West Yorkshire",
+      "country": "United Kingdom",
+      "postcode": "E6 8GB",
+      "coordinates": { "latitude": "-17.3263", "longitude": "75.4328" },
+      "timezone": {
+        "offset": "+2:00",
+        "description": "Kaliningrad, South Africa"
+      }
+    },
+    "email": "amber.mason@example.com",
+    "login": {
+      "uuid": "657da7d9-59b5-4158-b364-01b66163d906",
+      "username": "happyladybug330",
+      "password": "spongebo",
+      "salt": "cR182vNf",
+      "md5": "694c52c4f162965c45d7751d74265f7f",
+      "sha1": "d240f203760adae603c511de27488174e2ca0f7b",
+      "sha256": "a3d16bbbf14631265e2686d4745b8e1af3dc5269373d255260471a1d1fdff04d"
+    },
+    "dob": { "date": "1995-12-12T01:30:26.324Z", "age": 28 },
+    "registered": { "date": "2020-11-06T03:22:59.131Z", "age": 3 },
+    "phone": "0181 859 9211",
+    "cell": "07539 445921",
+    "id": { "name": "NINO", "value": "PG 95 99 70 B" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/46.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/46.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/46.jpg"
+    },
+    "nat": "GB"
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Shaun", "last": "Rhodes" },
+    "location": {
+      "street": { "number": 421, "name": "North Road" },
+      "city": "St Albans",
+      "state": "Devon",
+      "country": "United Kingdom",
+      "postcode": "U16 0AT",
+      "coordinates": { "latitude": "-7.6031", "longitude": "-147.2481" },
+      "timezone": { "offset": "-10:00", "description": "Hawaii" }
+    },
+    "email": "shaun.rhodes@example.com",
+    "login": {
+      "uuid": "f9e0fe35-694f-44d2-ade0-b5787b2518ee",
+      "username": "greenostrich246",
+      "password": "peters",
+      "salt": "P0R3SH1t",
+      "md5": "f9d9a612b85317a15b2acda7682898a5",
+      "sha1": "2881e782578ae02c0137ecc18dafaf94da27aa32",
+      "sha256": "7d18661612628af4512bddf2f8cde5019cf1a25216bac4edde801b948e827815"
+    },
+    "dob": { "date": "1981-02-20T10:35:32.818Z", "age": 43 },
+    "registered": { "date": "2018-11-07T05:19:45.166Z", "age": 5 },
+    "phone": "015394 31378",
+    "cell": "07998 555542",
+    "id": { "name": "NINO", "value": "AS 82 24 14 F" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/56.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/56.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/56.jpg"
+    },
+    "nat": "GB"
+  },
+  {
+    "gender": "female",
+    "name": { "title": "Miss", "first": "Barbara", "last": "Fowler" },
+    "location": {
+      "street": { "number": 7970, "name": "Manchester Road" },
+      "city": "Salisbury",
+      "state": "Berkshire",
+      "country": "United Kingdom",
+      "postcode": "J6 3LR",
+      "coordinates": { "latitude": "-49.1898", "longitude": "-24.1818" },
+      "timezone": {
+        "offset": "-3:00",
+        "description": "Brazil, Buenos Aires, Georgetown"
+      }
+    },
+    "email": "barbara.fowler@example.com",
+    "login": {
+      "uuid": "dca11452-710e-4282-839d-68073d2e9252",
+      "username": "bluebutterfly558",
+      "password": "scania",
+      "salt": "NGOyo4yC",
+      "md5": "185088fed14468577ef6d63686f796c2",
+      "sha1": "f567c9c484c4f749ebf81b1210260eb1adcae780",
+      "sha256": "3930f36d22e252c74a492a562bac045979fc7bc43ea727d5b046b8f83de75e3c"
+    },
+    "dob": { "date": "1971-11-14T12:36:13.842Z", "age": 52 },
+    "registered": { "date": "2013-01-31T22:34:38.331Z", "age": 11 },
+    "phone": "015394 86766",
+    "cell": "07460 341727",
+    "id": { "name": "NINO", "value": "RH 73 13 29 G" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/52.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/52.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/52.jpg"
+    },
+    "nat": "GB"
+  }
+]

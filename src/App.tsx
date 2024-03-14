@@ -1,4 +1,10 @@
+import comments from "./data/comments.json";
+import users from "./data/users.json";
+
 function App() {
+  console.log(comments);
+  console.log(users);
+
   return (
     <div className="max-w-3xl px-4 mx-auto my-16">
       {[1, 2].map((item) => (
@@ -19,7 +25,7 @@ function App() {
                   />
                 </div>
                 <p className="font-bold text-zinc-700">johndoe</p>
-                <p className="text-gray-700/60 font-normal">1 month</p>
+                <p className="text-gray-700/70 font-normal">1 month ago</p>
               </div>
               <div>
                 <button className="flex items-center text-indigo-700 font-bold">
@@ -36,7 +42,7 @@ function App() {
                 </button>
               </div>
             </div>
-            <p className="pt-6 text-gray-700/60">
+            <p className="pt-6 text-gray-700/70">
               Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
               sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit
               amet, qui minim labore adipisicing minim sint cillum sint
@@ -67,7 +73,7 @@ function App() {
                     />
                   </div>
                   <p className="font-bold text-zinc-700">johndoe</p>
-                  <p className="text-gray-700/60 font-normal">1 month</p>
+                  <p className="text-gray-700/70 font-normal">1 week ago</p>
                 </div>
                 <div>
                   <button className="flex items-center text-indigo-700 font-bold">
@@ -84,7 +90,7 @@ function App() {
                   </button>
                 </div>
               </div>
-              <p className="pt-6 text-gray-700/60">
+              <p className="pt-6 text-gray-700/70">
                 Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
                 sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit
                 amet, qui minim labore adipisicing minim sint cillum sint
@@ -93,6 +99,23 @@ function App() {
             </div>
           </div>
         ))}
+      </div>
+      <div className="w-full mt-6 flex *:mr-4 last:*:mr-0 bg-white p-6 rounded-md">
+        <div className="w-14 h-14">
+          <img
+            src="https://randomuser.me/api/portraits/men/7.jpg"
+            alt="johndoe"
+            className="w-full h-auto rounded-full"
+          />
+        </div>
+        <textarea
+          className="w-full border py-2 px-6 rounded-md"
+          placeholder="Add a comment..."
+          rows={3}
+        />
+        <button className="text-white uppercase bg-indigo-700 py-4 h-full px-8 rounded-md">
+          Send
+        </button>
       </div>
     </div>
   );
