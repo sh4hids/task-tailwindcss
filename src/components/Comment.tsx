@@ -39,13 +39,13 @@ export type CommentProps = {
 
 function Comment({ comment, user, currentUser }: CommentProps) {
     return (
-        <div className="flex bg-white p-6 rounded-lg mb-6 last:mb-0">
+        <div className="mb-6 flex rounded-lg bg-white p-4 last:mb-0 sm:p-6">
             <CommentVotes currentVotes={comment.votes} />
-            <div className="pl-6">
-                <div className="flex justify-between">
-                    <div className="flex items-center  *:mr-4 last:*:mr-0">
+            <div className="pl-4 sm:pl-6">
+                <div className="flex flex-col justify-between sm:flex-row">
+                    <div className="flex flex-col *:mr-4 last:*:mr-0  sm:flex-row sm:items-center">
                         <UserProfile user={user} currentUser={currentUser} />
-                        <p className="text-gray-700/70 font-normal">
+                        <p className="pl-12 text-sm font-normal text-gray-700/70 sm:pl-0 sm:text-base">
                             {`${formatDistanceToNow(new Date(comment.created_at))}`.replace(
                                 'about ',
                                 ''
@@ -53,15 +53,23 @@ function Comment({ comment, user, currentUser }: CommentProps) {
                             ago
                         </p>
                     </div>
-                    <CommentActions
-                        currentUser={currentUser}
-                        userId={user.id}
-                    />
+                    <div className="hidden sm:block">
+                        <CommentActions
+                            currentUser={currentUser}
+                            userId={user.id}
+                        />
+                    </div>
                 </div>
                 <p
                     className="pt-4 text-gray-700/70 [&>a]:font-bold"
                     dangerouslySetInnerHTML={{ __html: comment.body }}
                 ></p>
+                <div className="sm:hidden">
+                    <CommentActions
+                        currentUser={currentUser}
+                        userId={user.id}
+                    />
+                </div>
             </div>
         </div>
     );

@@ -22,7 +22,7 @@ function CommentList({ comments, users, currentUser }: CommentListProps) {
                         currentUser={currentUser}
                     />
                     {comment.replies?.length ? (
-                        <div className="ml-11 pl-11 border-l-2 ">
+                        <div className="ml-4 border-l-2 pl-6 sm:ml-11 sm:pl-11">
                             {comment.replies?.map((reply) => (
                                 <Comment
                                     key={reply.id}
