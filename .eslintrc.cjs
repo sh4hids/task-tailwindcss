@@ -5,6 +5,7 @@ module.exports = {
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:react-hooks/recommended',
+        'plugin:tailwindcss/recommended',
         'prettier',
     ],
     ignorePatterns: ['dist', '.eslintrc.cjs'],
@@ -25,4 +26,10 @@ module.exports = {
             },
         ],
     },
+    overrides: [
+        {
+            files: ['*.ts', '*.tsx', '*.js'],
+            parser: '@typescript-eslint/parser',
+        },
+    ],
 };
