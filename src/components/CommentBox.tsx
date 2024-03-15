@@ -15,7 +15,7 @@ function CommentBox({ user }: CommentBoxProps) {
         />
       </div>
       <textarea
-        className="w-full border py-2 px-6 rounded-md resize-none"
+        className="w-full border py-2 px-6 rounded-md resize-none placeholder:text-gray-700/80"
         placeholder="Add a comment..."
         rows={3}
       />

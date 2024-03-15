@@ -11,11 +11,6 @@ function UserProfile({
   showUsername = true,
   currentUser,
 }: UserProfileProps) {
-  console.log({
-    user,
-    currentUser,
-  });
-
   return (
     <>
       <a href="#" className="flex items-center cursor-pointer">
@@ -35,7 +30,7 @@ function UserProfile({
         )}
       </a>
       {currentUser && currentUser.id === user.id ? (
-        <p className="-ml-2 bg-indigo-700 text-xs font-bold lowercase text-white px-2 py-0.5 rounded-sm">
+        <p className="-ml-2 bg-indigo-700 text-xs font-bold lowercase text-white px-1.5 py-0.5 rounded-sm">
           You
         </p>
       ) : (

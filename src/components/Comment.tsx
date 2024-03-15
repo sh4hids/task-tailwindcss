@@ -1,3 +1,5 @@
+import { formatDistance, formatDistanceToNow } from "date-fns";
+import CommentActions from "./CommentActions";
 import UserProfile from "./UserProfile";
 
 export interface Comment {
@@ -42,29 +44,22 @@ function Comment({ comment, user, currentUser }: CommentProps) {
         <p>{comment.votes}</p>
         <button className="text-indigo-700/40">-</button>
       </div>
-      <div className="pl-4">
+      <div className="pl-6">
         <div className="flex justify-between">
           <div className="flex items-center  *:mr-4 last:*:mr-0">
             <UserProfile user={user} currentUser={currentUser} />
-            <p className="text-gray-700/70 font-normal">1 month ago</p>
+            <p className="text-gray-700/70 font-normal">
+              {`${formatDistanceToNow(new Date(comment.created_at))}`.replace(
+                "about ",
+                "",
+              )}{" "}
+              ago
+            </p>
           </div>
-          <div>
-            <button className="flex items-center text-indigo-700 font-bold">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 32 32"
-                className="w-4 h-4 mr-2"
-                fill="currentColor"
-              >
-                <path d="M23.808 32c3.554-6.439 4.153-16.26-9.808-15.932v7.932l-12-12 12-12v7.762c16.718-0.436 18.58 14.757 9.808 24.238z"></path>
-              </svg>
-              <span>Reply</span>
-            </button>
-          </div>
+          <CommentActions currentUser={currentUser} userId={user.id} />
         </div>
         <p
-          className="pt-6 text-gray-700/70 [&>a]:font-bold"
+          className="pt-4 text-gray-700/70 [&>a]:font-bold"
           dangerouslySetInnerHTML={{ __html: comment.body }}
         ></p>
       </div>
