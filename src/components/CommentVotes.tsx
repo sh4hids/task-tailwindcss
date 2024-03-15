@@ -5,13 +5,10 @@ interface CommentVotesProps {
 }
 
 function CommentVotes({ currentVotes = 0 }: CommentVotesProps) {
-  const [voteCount, setVoteCount] = useState(currentVotes);
+  const [voteCount, _setVoteCount] = useState(currentVotes);
   return (
     <div className="text-center h-full bg-gray-100 py-1 px-3.5 rounded-lg *:pb-1 last:*:pb-0 *:font-bold text-indigo-700">
-      <button
-        className="text-indigo-700/40 mb-2 "
-        onClick={() => setVoteCount(voteCount + 1)}
-      >
+      <button className="text-indigo-700/40 mb-2 ">
         <svg
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
@@ -25,10 +22,7 @@ function CommentVotes({ currentVotes = 0 }: CommentVotesProps) {
         </svg>
       </button>
       <p>{voteCount}</p>
-      <button
-        className="text-indigo-700/40 "
-        onClick={() => setVoteCount(voteCount - 1)}
-      >
+      <button className="text-indigo-700/40 ">
         <svg
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
