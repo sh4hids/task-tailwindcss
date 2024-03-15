@@ -1,3 +1,5 @@
+import UserProfile from "./UserProfile";
+
 export interface Comment {
   id: number;
   created_by: number;
@@ -29,9 +31,10 @@ export interface User {
 export type CommentProps = {
   comment: CommentData;
   user: User;
+  currentUser?: User;
 };
 
-function Comment({ comment, user }: CommentProps) {
+function Comment({ comment, user, currentUser }: CommentProps) {
   return (
     <div className="flex bg-white p-6 rounded-lg mb-6 last:mb-0">
       <div className="text-center h-full bg-gray-100 p-3 rounded-lg *:pb-1 last:*:pb-0 *:font-bold text-indigo-700">
@@ -42,16 +45,7 @@ function Comment({ comment, user }: CommentProps) {
       <div className="pl-4">
         <div className="flex justify-between">
           <div className="flex items-center  *:mr-4 last:*:mr-0">
-            <div className="w-8 h-8">
-              <img
-                src={user.picture.thumbnail}
-                alt="johndoe"
-                className="w-full h-auto rounded-full"
-              />
-            </div>
-            <p className="font-bold text-zinc-700">
-              {`${user.name.first}${user.name.last}`.toLowerCase()}
-            </p>
+            <UserProfile user={user} currentUser={currentUser} />
             <p className="text-gray-700/70 font-normal">1 month ago</p>
           </div>
           <div>

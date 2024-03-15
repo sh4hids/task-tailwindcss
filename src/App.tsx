@@ -6,13 +6,15 @@ import users from "./data/users.json";
 import { User } from "./components/Comment";
 
 function App() {
-  const [currentUser, setCurrentUser] = useState<User>(users[1]);
-  console.log(comments);
-  console.log(users);
+  const [currentUser, _setCurrentUser] = useState<User>(users[1]);
 
   return (
     <div className="max-w-3xl px-4 mx-auto my-16">
-      <CommentList comments={comments} users={users} />
+      <CommentList
+        comments={comments}
+        users={users}
+        currentUser={currentUser}
+      />
       <CommentBox user={currentUser} />
     </div>
   );
