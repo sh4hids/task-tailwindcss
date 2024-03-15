@@ -1,72 +1,72 @@
 [
-  {
-    "id": 1,
-    "gender": "female",
-    "name": { "title": "Ms", "first": "Mary", "last": "Day" },
-    "email": "mary.day@example.com",
-    "phone": "017684 29381",
-    "cell": "07600 331410",
-    "picture": {
-      "large": "https://randomuser.me/api/portraits/women/96.jpg",
-      "medium": "https://randomuser.me/api/portraits/med/women/96.jpg",
-      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/96.jpg"
+    {
+        "id": 1,
+        "gender": "female",
+        "name": { "title": "Ms", "first": "Mary", "last": "Day" },
+        "email": "mary.day@example.com",
+        "phone": "017684 29381",
+        "cell": "07600 331410",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/96.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/96.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/96.jpg"
+        },
+        "nat": "GB"
     },
-    "nat": "GB"
-  },
-  {
-    "id": 2,
-    "gender": "male",
-    "name": { "title": "Mr", "first": "Clayton", "last": "White" },
-    "email": "clayton.white@example.com",
-    "phone": "016974 52343",
-    "cell": "07469 238780",
-    "picture": {
-      "large": "https://randomuser.me/api/portraits/men/58.jpg",
-      "medium": "https://randomuser.me/api/portraits/med/men/58.jpg",
-      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/58.jpg"
+    {
+        "id": 2,
+        "gender": "male",
+        "name": { "title": "Mr", "first": "Clayton", "last": "White" },
+        "email": "clayton.white@example.com",
+        "phone": "016974 52343",
+        "cell": "07469 238780",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/58.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/58.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/58.jpg"
+        },
+        "nat": "GB"
     },
-    "nat": "GB"
-  },
-  {
-    "id": 3,
-    "gender": "female",
-    "name": { "title": "Miss", "first": "Amber", "last": "Mason" },
-    "email": "amber.mason@example.com",
-    "phone": "0181 859 9211",
-    "cell": "07539 445921",
-    "picture": {
-      "large": "https://randomuser.me/api/portraits/women/46.jpg",
-      "medium": "https://randomuser.me/api/portraits/med/women/46.jpg",
-      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/46.jpg"
+    {
+        "id": 3,
+        "gender": "female",
+        "name": { "title": "Miss", "first": "Amber", "last": "Mason" },
+        "email": "amber.mason@example.com",
+        "phone": "0181 859 9211",
+        "cell": "07539 445921",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/46.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/46.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/46.jpg"
+        },
+        "nat": "GB"
     },
-    "nat": "GB"
-  },
-  {
-    "id": 4,
-    "gender": "male",
-    "name": { "title": "Mr", "first": "Shaun", "last": "Rhodes" },
-    "email": "shaun.rhodes@example.com",
-    "phone": "015394 31378",
-    "cell": "07998 555542",
-    "picture": {
-      "large": "https://randomuser.me/api/portraits/men/56.jpg",
-      "medium": "https://randomuser.me/api/portraits/med/men/56.jpg",
-      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/56.jpg"
+    {
+        "id": 4,
+        "gender": "male",
+        "name": { "title": "Mr", "first": "Shaun", "last": "Rhodes" },
+        "email": "shaun.rhodes@example.com",
+        "phone": "015394 31378",
+        "cell": "07998 555542",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/56.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/56.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/56.jpg"
+        },
+        "nat": "GB"
     },
-    "nat": "GB"
-  },
-  {
-    "id": 5,
-    "gender": "female",
-    "name": { "title": "Miss", "first": "Barbara", "last": "Fowler" },
-    "email": "barbara.fowler@example.com",
-    "phone": "015394 86766",
-    "cell": "07460 341727",
-    "picture": {
-      "large": "https://randomuser.me/api/portraits/women/52.jpg",
-      "medium": "https://randomuser.me/api/portraits/med/women/52.jpg",
-      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/52.jpg"
-    },
-    "nat": "GB"
-  }
+    {
+        "id": 5,
+        "gender": "female",
+        "name": { "title": "Miss", "first": "Barbara", "last": "Fowler" },
+        "email": "barbara.fowler@example.com",
+        "phone": "015394 86766",
+        "cell": "07460 341727",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/52.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/52.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/52.jpg"
+        },
+        "nat": "GB"
+    }
 ]
