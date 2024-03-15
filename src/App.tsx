@@ -9,7 +9,7 @@ function App() {
     const [currentUser, _setCurrentUser] = useState<User>(users[1]);
 
     return (
-        <div className="max-w-3xl px-4 mx-auto my-16">
+        <div className="mx-auto my-4 max-w-3xl px-4 sm:my-16">
             <CommentList
                 comments={comments}
                 users={users}
