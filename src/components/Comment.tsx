@@ -1,6 +1,7 @@
-import { formatDistance, formatDistanceToNow } from "date-fns";
+import { formatDistanceToNow } from "date-fns";
 import CommentActions from "./CommentActions";
 import UserProfile from "./UserProfile";
+import CommentVotes from "./CommentVotes";
 
 export interface Comment {
   id: number;
@@ -39,11 +40,7 @@ export type CommentProps = {
 function Comment({ comment, user, currentUser }: CommentProps) {
   return (
     <div className="flex bg-white p-6 rounded-lg mb-6 last:mb-0">
-      <div className="text-center h-full bg-gray-100 p-3 rounded-lg *:pb-1 last:*:pb-0 *:font-bold text-indigo-700">
-        <button className="text-indigo-700/40">+</button>
-        <p>{comment.votes}</p>
-        <button className="text-indigo-700/40">-</button>
-      </div>
+      <CommentVotes currentVotes={comment.votes} />
       <div className="pl-6">
         <div className="flex justify-between">
           <div className="flex items-center  *:mr-4 last:*:mr-0">
