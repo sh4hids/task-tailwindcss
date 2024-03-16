@@ -7,7 +7,7 @@ interface CommentVotesProps {
 function CommentVotes({ currentVotes = 0 }: CommentVotesProps) {
     const [voteCount, _setVoteCount] = useState(currentVotes);
     return (
-        <div className="h-full rounded-lg bg-gray-100 px-3.5 py-1 text-center text-indigo-700 *:pb-1 *:font-bold last:*:pb-0">
+        <div className="h-full min-w-[46px]  rounded-lg bg-gray-100 px-3.5 py-1 text-center text-indigo-700 *:pb-1 *:font-bold last:*:pb-0">
             <button className="mb-2 text-indigo-700/40 ">
                 <svg
                     version="1.1"
